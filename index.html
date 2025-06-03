@@ -1,40 +1,119 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>My first styled page</title>
-  	<link rel="stylesheet" href="styles/mystyles.css">
-  </head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI and Human Interaction – Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-<img src="images/csg4ed-small.png" alt="Enhancing Social Good in Computing"
-<!-- Site navigation menu -->
-<ul class="navbar">
-  <li><a href="index.html">Home page</a>
-  <li><a href="misc/topic.html">Technology/Topic</a>
-	<li><a href="misc/opportunities.html">Opportunities</a>
-	<li><a href="misc/risks.html">Risks</a>
-	<li><a href="misc/choices.html">Choices</a>
-	<li><a href="misc/ethics.html">Ethical Reflections</a>
-	<li><a href="misc/references.html">References</a>
-   <li><a href="misc/process.html">Process Support</a>
-</ul>
+    <div class="container">
+        <!-- Navigation Bar -->
+        <nav class="nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#opportunities">Opportunities</a></li>
+                <li><a href="#risks">Risks</a></li>
+                <li><a href="#choices">Ethical Choices</a></li>
+                <li><a href="#sources">References</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
 
-<!-- Main content -->
-<h1>CTiS: Impact of Technology Site</h1>
-
-
-</ul><p>This mock-up site is intended to support your team project so you can take this as a set of files and as a starting point and adapt it to your preference.
-It is built on a W3C site tutorial so does not claim to be flash, but now has an image, [of a paper we wrote a while back on CSED4G (Computing Education for the Social Good)]</p>
-<p>The site is not particularly well presented, but as the site uses HTML and has been styled with CSS it can be regarded as a <em>"minimum viable product"</em> for the purposes of this project&hellip;
-It has some default links, which you can take as a start for your site structure.  The <em>Process Support </em>Links provides guidance which will be needed for presenting your final project. </p>
-
-
-<!-- Sign and date the page, it's only polite! -->
-<address>Made 19 May 2025<br>
-  by Dylan Fry, Jeroen Cortez and Idris Amini.</address>
- 
-<p><em>thanks to W3C for tutorial and adapted code from <a href="https://www.w3.org/Style/Examples/011/firstcss.en.html">Style Examples</a></p></em>
-<p><em>also thanks to WDN for HTML and CSS resources and any adapted code snippets from <a href= "https://developer.mozilla.org/en-US/docs/Web">Mozilla Developer Network</a></p></em 
- 
+        <!-- Home Section -->
+        <section id="home" class="content-section">
+            <h1>Website Intent – Introduction</h1>
+            <p>This website investigates how Artificial Intelligence (AI) is increasingly taking the place of real human interaction, 
+                particularly in emotionally significant areas such as companionship, romantic relationships, and emotional support. 
+                As AI technologies like chatbots, virtual partners, and deepfakes evolve, they are beginning to simulate empathy, 
+                conversation, and intimacy with surprising accuracy. While this presents promising opportunities—such as reducing loneliness 
+                in older adults and offering accessible mental health support — it also raises critical concerns about the long-term 
+                effects on human relationships, emotional well-being, and social development.</p>
+            <br>
+            <p>We intend to spark a thoughtful discussion around this emerging shift: What does it mean for society when machines begin 
+                to fulfill roles once reserved for people? Through this resource, we aim to critically evaluate both the opportunities 
+                and the risks of adopting AI in emotionally dependant spaces, offering a balanced perspective grounded in current research,
+                ethical considerations, and real-world examples. We encourage readers to consider not just what AI can do, but what it 
+                should do as we shape the future of digital interaction.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Human_AI_collaboration.jpg/800px-Human_AI_collaboration.jpg" alt="Human-AI interaction" class="featured-img">
+        </section>
+<br>
+        <!-- Opportunities Section -->
+        <section id="opportunities" class="content-section">
+            <h2>Opportunities: Positive Impacts on Society</h2>
+            <ul class="icon-list">
+                <li>🤖 <strong>Companionship for the Lonely:</strong> AI chatbots can help older adults or socially isolated individuals feel heard.</li>
+                <li>🌍 <strong>Global Access:</strong> AI tools break language barriers and enable communication across borders.</li>
+                <li>💬 <strong>Mental Health Aid:</strong> Apps like Woebot or Replika offer affordable emotional support.</li>
+                <li>📞 <strong>AI Voice Assistants:</strong> Improve accessibility for those with disabilities.</li>
+            </ul>
+        </section>
+<br>
+        <!-- Risks Section -->
+        <section id="risks" class="content-section">
+            <h2>Risks: What Are We Losing?</h2>
+            <blockquote>“The more we outsource our emotional lives to machines, the more we risk forgetting how to be human.” – Sherry Turkle</blockquote>
+            <ul class="icon-list">
+                <li>⚠️ <strong>Dependency:</strong> Over-reliance on AI companions may reduce social confidence.</li>
+                <li>🧠 <strong>Emotional Detachment:</strong> AI doesn’t feel or understand like a human – relationships can feel hollow.</li>
+                <li>🕵️ <strong>Deepfake Dangers:</strong> Adult content and AI-generated personas can deceive and manipulate users.</li>
+                <li>💔 <strong>Relationship Erosion:</strong> Older adults may choose AI over meaningful real-world connections.</li>
+            </ul>
+        </section>
+<br>
+        <!-- Ethical Choices Section -->
+        <section id="choices" class="content-section">
+            <h2>Ethical Choices in Adopting AI Social Tools</h2>
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Option</th>
+                        <th>Pros</th>
+                        <th>Cons</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Use AI for companionship</td>
+                        <td>Reduces loneliness, easily accessible</td>
+                        <td>Might replace real human bonds</td>
+                    </tr>
+                    <tr>
+                        <td>Hybrid: AI + Human Therapy</td>
+                        <td>Balanced approach</td>
+                        <td>Still depends on tech infrastructure</td>
+                    </tr>
+                    <tr>
+                        <td>Avoid AI in emotional contexts</td>
+                        <td>Preserves authentic relationships</td>
+                        <td>May ignore tech’s helpful potential</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+<br>
+        <!-- Sources & References Section -->
+        <section id="sources" class="content-section">
+            <h2>References</h2>
+            <ol>
+                <li><a href="https://doi.org/10.1016/j.chb.2017.03.058" target="_blank">Turkle, S. (2017). Alone Together. Computers in Human Behavior.</a></li>
+                <li><a href="https://www.nature.com/articles/s41599-021-00800-7" target="_blank">AI in Emotional Communication: Nature Humanities and Social Sciences Communications</a></li>
+                <li><a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2021.734561/full" target="_blank">Frontiers in Psychology – AI Chatbots & Loneliness</a></li>
+                <li><a href="https://replika.ai" target="_blank">Replika: An AI Companion</a></li>
+            </ol>
+        </section>
+<br>
+        <!-- About Us Section -->
+        <section id="about" class="content-section">
+            <h2>About Us</h2>
+            <p>We are students of <strong>Computing Technology in Society</strong> exploring how AI is shaping our social world. We chose this topic to highlight emerging technologies like Replika and deepfakes that blur the lines between real and artificial connection.</p>
+            <p><strong>Team Members:</strong> Jane Doe, Alex Smith, Maria Lee</p>
+        </section>
+<br>
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 AI Society Blog. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
 </html>
